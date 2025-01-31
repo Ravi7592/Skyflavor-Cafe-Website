@@ -1,0 +1,39 @@
+.navbar{
+    background-color: #000000c5;
+    height: 80px;
+}
+.collapse ul{
+    margin-left: 45%;
+}
+.collapse ul li a{
+    margin-left: 50px;
+    color: aliceblue !important;
+}
+.collapse ul li a:hover{
+    color: red !important;
+}
+button .collapse{
+    background-color: #000000c5 !important  ;
+}
+
+@media (max-width: 991px) { /* Target small screens (Bootstrap breakpoint for collapsed navbar) */
+    #navbarNav {
+        background-color: #000000c5; /* Change to your desired color */
+        margin-top: 32px;
+        opacity: 0.9;
+    }
+    .collapse ul{
+        margin-left: 0px;
+    }
+    .collapse ul li a{
+        margin-left:    10px;
+    }
+}
+
+@media (min-width: 992px) { /* Target large screens (navbar expanded) */
+    #navbarNav {
+        background-color: transparent; /* Or any other color */
+    }
+}
+ 
+ 
