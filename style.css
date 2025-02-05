@@ -1,6 +1,15 @@
+
 .navbar{
-    background-color: #000000c5;
-    height: 80px;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-color: #000000ce;
+    height: 80px; 
+}
+.navbar-brand{
+    color: white !important;
 }
 .collapse ul{
     margin-left: 45%;
@@ -37,3 +46,39 @@ button .collapse{
 }
  
  
+
+
+/* Styles for home section */
+.home{
+    text-align: center;
+    width: 100%;
+    height: 700px;
+}
+.home img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.welcomeMsg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.welcomeMsg h1{
+    color: white;
+    font-size: 90px;
+}
+
+/* end of the home section styles */
+
+
+
+
+
+/* Start of the About section styles */
+.aboutUsTitle{
+    text-align: center;
+    margin-top: 30px !important;
+}
+/* End of the About section styles */
